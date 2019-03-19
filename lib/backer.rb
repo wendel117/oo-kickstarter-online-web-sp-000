@@ -9,7 +9,7 @@ def initialize(name)
 end
 
 def backed_projects(project)
-  @backed_projects
+  @backed_projects << self
 end
 
 end
