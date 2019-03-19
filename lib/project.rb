@@ -9,5 +9,7 @@ end
 
 def add_backer(backer)
   @backer << self
+end
+
 
 end
