@@ -8,7 +8,7 @@ def initialize(name)
   @name=name
 end
 
-def backed_projects(project)
+def backed_project(project)
   @backed_projects << self
 end
 
