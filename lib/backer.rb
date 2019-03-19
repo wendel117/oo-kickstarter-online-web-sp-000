@@ -3,7 +3,7 @@ class Backer
 attr_accessor :project
 attr_reader :name
 
-def initialize
+def initialize(name)
   @name=name
 end
 
